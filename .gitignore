@@ -1,0 +1,5 @@
+settings.ini
+# In the event that the objectStore-index file is stored in the project folder... keep git from seeing it.
+objectStore-index.txt
+
+

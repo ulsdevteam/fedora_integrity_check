@@ -1,0 +1,3 @@
+[submodule "tuque"]
+	path = tuque
+	url = https://github.com/ulsdevteam/tuque.git

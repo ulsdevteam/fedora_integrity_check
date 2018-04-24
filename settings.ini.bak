@@ -1,0 +1,26 @@
+[settings]
+# This setting is needed by fedora-integrity-checker.php to let it know where 
+# the object store index file is stored
+object_store_index_file = /usr/local/src/objectStore-index.txt
+
+# This is simply the replacement pattern for the "./" that is caused by the
+# output of the "find . -name "*" > objectStore-index.txt" command.
+object_store_path = /fedoradata/fedora/data/objectStore/
+
+# For use with mysql date commands in the even that the server does not set this.
+default_timezone = America/New_York
+
+[fedora]
+# the url value should be the same as the Islandora configuration for the
+# "Fedora base URL" value unless a specific proxy is needed between this machine
+# and fedora.
+url = http://YOUR_fedora_server:8080/fedora
+username = admin
+password = YOUR_fedora_password
+
+[mysql]
+database = fedora_integrity_check
+username = drupal
+password = YOUR_mysql_password
+host = YOUR_databaseserver
+
