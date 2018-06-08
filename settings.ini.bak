@@ -7,6 +7,9 @@ object_store_index_file = /usr/local/src/objectStore-index.txt
 # output of the "find . -name "*" > objectStore-index.txt" command.
 object_store_path = /fedoradata/fedora/data/objectStore/
 
+# Specific set of PID values
+specific_PIDS_index_file = /usr/local/src/specific-PIDs.txt
+
 # For use with mysql date commands in the even that the server does not set this.
 default_timezone = America/New_York
 
