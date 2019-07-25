@@ -170,7 +170,7 @@ function save_object_store_record($osa, $conn) {
 }
 
 function get_objectStore_rows($conn) {
-  return 1778945;  
+  return 2036736;
   $result = mysqli_query($conn, 'SELECT count(*) `object_count` from objectStore');
 
   $row = $result->fetch_assoc();
